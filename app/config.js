@@ -153,7 +153,7 @@ module.exports = {
 			// 		title:"Related Sites",
 			// 		links: coins[currentCoin].relatedSites
 			// 	}
-			]
+			//]
 		}
 	},
 
