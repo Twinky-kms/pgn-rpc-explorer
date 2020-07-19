@@ -1,11 +1,11 @@
 var btc = require("./coins/btc.js");
 var ltc = require("./coins/ltc.js");
-var pgn = require("./coins/pgn.js");
+var konj = require('./coins/konj.js');
 
 module.exports = {
 	"BTC": btc,
 	"LTC": ltc,
-	"PGN": pgn,
+	"KONJ": konj,
 
-	"coins":["BTC", "LTC", "PGN"]
+	"coins":["BTC", "LTC", "KONJ"]
 };
