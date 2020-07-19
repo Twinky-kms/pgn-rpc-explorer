@@ -148,11 +148,11 @@ module.exports = {
 		},
 		header:{
 			showToolsSubheader:(process.env.BTCEXP_UI_SHOW_TOOLS_SUBHEADER == "true"),
-			dropdowns:[
-				{
-					title:"Related Sites",
-					links: coins[currentCoin].relatedSites
-				}
+			// dropdowns:[
+			// 	{
+			// 		title:"Related Sites",
+			// 		links: coins[currentCoin].relatedSites
+			// 	}
 			]
 		}
 	},
