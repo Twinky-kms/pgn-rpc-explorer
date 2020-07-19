@@ -152,7 +152,7 @@ function getBlockCount() {
 }
 
 function getNetworkInfo() {
-	return tryCacheThenRpcApi(miscCache, "getNetworkInfo", 10000, rpcApi.getNetworkInfo);
+	return tryCacheThenRpcApi(miscCache, "getInfo", 10000, rpcApi.getInfo);
 }
 
 function getNetTotals() {
